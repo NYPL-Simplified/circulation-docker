@@ -29,6 +29,7 @@ git clone https://github.com/${repo}.git circulation
 chown simplified:simplified circulation
 cd circulation
 git checkout $version
+git log -n 1 --pretty="Current commit: %H"
 
 # Use https to access submodules.
 git config submodule.core.url https://github.com/NYPL-Simplified/server_core.git
