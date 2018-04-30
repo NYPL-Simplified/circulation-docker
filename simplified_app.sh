@@ -10,7 +10,7 @@ apt-get update && $minimal_apt_get_install python-dev \
   python2.7 \
   python-cairo \
   python-nose \
-  python-pip \
+  python-pip=9.0.3 \
   gcc \
   git \
   libpcre3 \
