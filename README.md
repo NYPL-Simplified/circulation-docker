@@ -1,6 +1,10 @@
 # circulation-docker
 These are the Docker images for Library Simplified's [Circulation Manager](https://github.com/NYPL-Simplified/circulation_manager). They are updated via [pull requests to the `NYPL-Simplified/circulation-docker` GitHub repo](https://github.com/NYPL-Simplified/circulation-docker/pulls).
 
+# Deprecation note
+
+The code in this repository has been moved to the [circulation](https://github.com/NYPL-Simplified/circulation/) repository and will no longer be updated. However the documentation below is still accurate. Once the documentation has been merged with other documentation, this repository wil lbe archived.
+
 #### Contents:
 - What is the Circulation Manager?
 - Using This Image
